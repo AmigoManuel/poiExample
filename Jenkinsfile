@@ -29,7 +29,6 @@ pipeline {
         		echo "param3: ${sTranGepaRaM}"
         		echo "param4: ${PASSWORD}"
         		echo "param5: ${BIOGRAPHY}"
-        	    sh 'echo Hola que tal!. Trying: ${door_choice}. We can dance: ${CAN_DANCE} and the DJ said ${sTranGepaRaM}'
         	}
         }
     }
