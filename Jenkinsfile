@@ -29,6 +29,7 @@ pipeline {
         		echo "param3: ${sTranGepaRaM}"
         		echo "param4: ${PASSWORD}"
         		echo "param5: ${BIOGRAPHY}"
+                sh 'echo "Hello World"'
         	}
         }
     }
