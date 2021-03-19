@@ -34,7 +34,7 @@ pipeline {
                 echo "param3: ${string_field}"
                 echo "param4: ${text_area}"
                 echo "Hello World ${choice_field}"
-                php -version
+                java -version
         	}
         }
     }
