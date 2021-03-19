@@ -28,13 +28,13 @@ pipeline {
         stages{
         
     	stage('Example one'){
-        	steps{     	    
-        		echo "param1: ${choice_field}"
-        		echo "param2: ${checkbox_field}"
-        		echo "param3: ${string_field}"
-        		echo "param4: ${text_area}"
+        	steps{
+                echo "param1: ${choice_field}"
+                echo "param2: ${checkbox_field}"
+                echo "param3: ${string_field}"
+                echo "param4: ${text_area}"
                 echo "Hello World ${choice_field}"
-                php -r "echo 'asd';"
+                echo "php -version"
         	}
         }
     }
